@@ -1,0 +1,22 @@
+{
+  "name": "cowin-vaccine-checker",
+  "version": "1.0.0",
+  "description": "A COVID-19 vaccine checker which uses Cowin API",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js"
+  },
+  "author": "Jatin Singh Chug",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "beeper": "^2.1.0",
+    "chalk": "^4.1.1",
+    "inquirer": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.2",
+    "typescript": "^4.2.4"
+  },
+  "proxy": "https://www.cowin.gov.in/api/v2"
+}
